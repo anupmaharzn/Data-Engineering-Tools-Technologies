@@ -9,6 +9,7 @@
 
 ```Clusters are commonly used in various distributed computing environments , including databases,web servers and big data processing systems.```
 
+![distributed system](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/e6a313aa-bc32-4a19-bcb9-ac1951c5bb22)
 
 ### Distributed Computing
 - Distributed computing refers to the use of distributed systems to complete computing task.
@@ -26,7 +27,7 @@
 - peer-to-peer architecture
 
 
-### features of distributed systems 
+### Features of Distributed systems 
 
 - concurrency
     - handle multiple task or processes at same time.
@@ -36,5 +37,5 @@
     - these systems allow the storage and retrieval of file across multiple nodes in a distributed manner.
     - Example: Hadoop Distributed File System(HDFS) and Google File System(GFS)
 - distributed Databases
-    - In distributed databases,data is distributed across mutiple nodes and te database management system coordinates access and queries.
+    - In distributed databases,data is distributed across mutiple nodes and the database management system coordinates access and queries.
     - Example Apache Cassandra,Amazon DynamoDB
