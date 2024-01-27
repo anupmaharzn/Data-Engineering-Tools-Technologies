@@ -141,3 +141,8 @@
       - Slave/worker servers/nodes
       - store the actual data blocks
       - responsible for reading and writing data upon request from clients and reporting their health and status to the NameNode(HeartBeats)
+
+- The Hadoop ecosystem comprises seveal other components like
+  - hive
+  - apache spark etc
+- The hadoop ecosystem works together on big data management
