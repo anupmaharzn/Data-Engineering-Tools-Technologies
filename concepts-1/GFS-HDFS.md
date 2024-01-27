@@ -2,7 +2,7 @@
 
 
 
-## Google File System (published in 2003)
+## Google File System 
 
 - `Distributed File Storage``, at any given cluster (1cluster = 100s of commodity servers) and this cluster provide an interface to n number of client to either read a file or write a file.
 - it's basically a file system but distruted among 100 or 1000's of servers or more.
