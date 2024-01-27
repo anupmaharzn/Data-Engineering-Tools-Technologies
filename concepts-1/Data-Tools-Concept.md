@@ -17,20 +17,29 @@
             - Spark provides a unified API for batch processing,interactive queries,streaming and machine learning.
         - Support for multiple Languages
             - like Scala,Java,Python(PySpark),R
-            #img3
+        
+            ![bigdata3](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/93c7a218-f1d3-44e8-896b-43890b01b952)
+
     
     - `Fault Tolerance`
         - Spark achieves fault tolerance through data replication. `Resilient Distributed Datasets(RDDs)`,the fundamental data structure in spark,automatically recover lost data in case of node failures.
 
         - `RDDs` hides the complexity form users,who don't have to worry about defining where specific files are sent,what resource used to store and retrive files.
-        #img1
+          
+        ![bigdata1](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/3b3f6d36-3c1a-4fe2-94a1-1f4f27c5e840)
 
         - process of RDDs is done by drivers and executors
-        #img2
+          
+        ![bigdata2](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/e910d876-3218-4ab1-ad60-2a1862d65498)
 
     - `Community and Ecosystem`
         - support docs and range of third party libraries and tools
         - it integrate with various data storage systems, including `HDFS`,`Apache Cassandra`
+     
+- `Overview Architecture Of Apache Spark`
+
+![bigdata4](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/ab1b2639-8d82-4b5a-957b-df8737d8ac47)
+
 
 - `Why Spark Performs Better than Hadoop ?`
 
