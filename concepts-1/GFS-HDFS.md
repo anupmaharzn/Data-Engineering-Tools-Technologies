@@ -26,6 +26,7 @@
         - Replica count by client ( at least 3 replica of each chunks in 3 different servers)
 
 -Let's understand with image
+
 ![google file system 1](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/946766d7-672b-442d-a86e-ba90ec5711b8)
 
 ![google file system 2](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/a42f2171-d587-43de-82e6-626c5d5bf209)
@@ -141,6 +142,8 @@
       - Slave/worker servers/nodes
       - store the actual data blocks
       - responsible for reading and writing data upon request from clients and reporting their health and status to the NameNode(HeartBeats)
+        
+![hadoop1](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/bf75e00e-b1f9-4826-ba79-3e3813b1c206)
 
 - The Hadoop ecosystem comprises seveal other components like
   - hive
