@@ -59,3 +59,23 @@
         - It refers to executing a MapReduce job multiple times or in simple terms iterating through the data sets multiple times to get the desired output. Graph processing algorithms, Page Ranking and Logistic Regression are some of the examples of iterative data mining and machine learning algorithms.
         - In Hadoop, when we write a MapReduce job, in each iteration it will read data from the disk and write temporary data back to the disk. So the problem here is that reading the initial data and writing the intermediate output data back to the disk is unavoidable because you have to save this temporary data somewhere. The more intermediate data you read/write the slower your execution will be.
         - `Spark optimizes this by keeping intermediate data in memory instead of disk.` 
+
+
+## Spark SQL
+
+- Spark SQL is a module in Apache Spark that provides a programming interface for working with structured and semi-structured data using SQL.
+- Spark SQL introduces the Dataframe API, which is higher-level abstraction than the traditional Resilient Distributed Dataset(RDD).DataFrames represent distributed collections of data organized into named columns,similar to tables in a relational database.
+
+## PySpark
+
+- PySpark is the Python API for Apache Spark,allowing to interact with the Spark framework for distributed data processing.
+- PySpark provies a module for `Spark SQL`, allowing users to perform SQL queries on structured data using Python.
+
+- PySpark supports `Dataframes`,a distributed collection of data organized into named columns. Dataframes provides a higher-level abstraction than `RDDs` and integrate well with `SparkSQL`.
+
+
+## Databricks
+
+- Databricks is cloud-based platform for working with Spark that provides automated cluster management and IPython-style notebooks.
+
+- Databricks is built on top of Apache Spark, leveraging its capabilities for distributed data processing, machine learning, and graph processing.
