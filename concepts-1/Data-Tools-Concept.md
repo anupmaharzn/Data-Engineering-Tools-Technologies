@@ -63,8 +63,11 @@
 
 ## Spark SQL
 
-- Spark SQL is a module in Apache Spark that provides a programming interface for working with structured and semi-structured data using SQL.
+- Spark SQL is a `module` in `Apache Spark` that provides a programming interface for working with structured and semi-structured data using SQL.
 - Spark SQL introduces the Dataframe API, which is higher-level abstraction than the traditional Resilient Distributed Dataset(RDD).DataFrames represent distributed collections of data organized into named columns,similar to tables in a relational database.
+
+  ![spark](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/26bec386-10e1-43d8-9313-ec2697d95bab)
+
 
 ## PySpark
 
