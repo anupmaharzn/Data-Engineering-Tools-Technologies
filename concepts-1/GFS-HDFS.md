@@ -46,6 +46,10 @@
 
 ### MapReduce (GFS continued)
 
+- MapReduce is a programming model and an associated implementation for processing and generating big dataset with a parellel,distributed algorithm on a cluster.
+
+- It provides a scalable and fault-tolerant approach to processing large datasets in parallel across a distributed cluster of computers. 
+
 - lets understand this with Use-Case.
 
 - Google Music analytics stored in GFS
@@ -107,4 +111,33 @@
 ## Hadoop Distributed File System
 
 
+### Hadoop (AKA Apache Hadoop)
+- Hadoop is an oen source framework from apache and is used to store process and analyz data which are very huge in volume.
 
+- It is designed to handle massive amount of data and provide a scalable,fault-tolerant storage and processing infrastructure.
+
+- modules of hadoop
+
+  - `HDFS`
+    - Hadoop distributed file system states that the files will be broken into blocks and stored in nodes over the distributed architecture.
+  - `Map Reduce`
+    - help to processing large datasets in parallel across a distributed cluster of computers.
+    - helps to do the parallel computation on data using key value pair.
+  - `Yarn`
+    - Yet another resource negotiator is used for job scheduling and manage the cluster.
+
+
+### Hadoop distributed file system
+- HDFS is a distributed file system that allows you to sotre large data across the cluster.
+- HDFS distributes data across multiple nodes ina hadoop cluster.it breaks large faile sinto samller blocks (typically 128 mb or 256mb in size) and stores multiple copies of theses blocks across different nodes for fault tolerance.
+
+- HDFS Architecture
+  - Master-Slave Architecture
+    - `NameNode (master)`
+      - master server/node 
+      - manages the metadata and namesacpe of the file system.
+      - also keeps track of te structure of the file system, including the locations of data blocks and other metadata.
+    - `DataNodes (slave)` 
+      - Slave/worker servers/nodes
+      - store the actual data blocks
+      - responsible for reading and writing data upon request from clients and reporting their health and status to the NameNode(HeartBeats)
