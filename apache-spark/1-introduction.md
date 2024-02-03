@@ -2,19 +2,23 @@
 - `Apache Spark is fast and general-purpose multi-language engine for executing data engineering,data science and machine learning on single-node machines or cluster.`
 
 ## Spark Infrastructure
-#img
+![apachespark1](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/3a5c0466-2adb-4df2-a4a4-5c9e7b778f64)
+
 
 ## Spark Cluster Using Databricks
 
 - just an example
-    #img
+  
+![apachespark2](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/e573528c-53dd-460d-a328-628fbfcd1ed0)
 
-### executor in spark cluster
+### Executor in spark cluster
 
 - executor is nothing but Java Virtual Machines (JVMs)
 - each JVMs have slots (unused capacity of a given node )(eg. 4core = 4slots)
 - slots are tasks that take care of processing the data. (task is used capacity)
-#img
+
+![apachespark3](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/9837147d-8e6a-4685-92bc-9f7a427b838b)
+
 
 ### Spark Terms
 
@@ -43,4 +47,6 @@
 - `Stage`
     - Each job gets `divided` into `smaller sets of tasks` called `stages` that depend on each other.
 
-#img explaing job and stage
+### Img explaining job and stages
+
+![apachespark4](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/2c78b37c-73d4-4de8-84a2-c834b0389156)
