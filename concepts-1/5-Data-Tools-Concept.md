@@ -2,7 +2,7 @@
 
 ## Apache Spark
 
-- Apache Spark is fast and general-purpose engine for large-scale data processing.
+- Apache Spark is fast and general-purpose multi-language engine for executing data engineering,data science and machine learning on single-node machines or cluster.
 
 - Feature of spark
 
