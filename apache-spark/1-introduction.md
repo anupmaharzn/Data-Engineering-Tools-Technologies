@@ -50,3 +50,15 @@
 ### Img explaining job and stages
 
 ![apachespark4](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/2c78b37c-73d4-4de8-84a2-c834b0389156)
+
+
+`Note`
+    - We gonna use `Databricks` cloud platform
+    - Databricks is cloud agnostic Spark based Big Data Processing Platform
+
+    - `Databricks` is also available on all leading cloud platforms.
+        - AWS
+        - Azure
+        - GCP
+### Databricks High Level Overview
+    
