@@ -14,11 +14,10 @@
 
 ## Data Warehouse Architecture and its Components
 
-- img 1
 ![datawarehouse1](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/fa3aaf39-d9b5-4c10-a019-924583fa7ce2)
 
 
-- img 2
+
 ![datawarehouse2](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/60d191b4-17e3-44e6-bf13-acbd3552fe3a)
 
 
