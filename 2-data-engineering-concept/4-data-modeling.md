@@ -26,53 +26,54 @@
 
 ## Categories of Data Model
 
-    - **Entity-Relationship Data Model**
-        - The Entity-Relationship (ER) model is a `conceptual data modeling technique` used to represent the structure of a database in terms of `entities` , `attributes`, and `relationships`.  
+- **Entity-Relationship Data Model**
+    - The Entity-Relationship (ER) model is a `conceptual data modeling technique` used to represent the structure of a database in terms of `entities` , `attributes`, and `relationships`.  
 
-        - `ER diagrams` visually represent these components and their relationships.
+    - `ER diagrams` visually represent these components and their relationships.
 
-        #img
-
-    - **Object-based Data Model**
-        - An Object-Based Data Model (OBDM) is a type of data model that is based on the principles of `object-oriented programming`
-
-        - In an object-based data model, data is organized and represented as objects, which encapsulate both data (attributes) and behaviors (methods or procedures). 
-
-        - Example use case
-            - Object-Relational Mapping(ORM)
-                - Focuses on bridging the gap between object-oriented programming and relational databases, mapping objects to database tables.
-
-    - **Dimensional Data Model**
-
-        - A Dimensional Data Model is a data modeling techinque used in `Data warehousing` and `business intelligence` to organize and structure data for efficient `querying` and `reporting`
-
-        - Key Components
-
-            - `Fact Table`
-                - Definition: The central table in the dimensional model that contains quantitative data or facts related to a specific business process or event
-
-                - Example: If the business process is sales, the fact table may contain measures like sales revenue, quantity sold, and profit.
-
-            - `Dimension Tables`
-                - Definition: Tables that store descriptive attributes or dimensions associated with the data in the fact table. Dimension tables provide context to the measures in the fact table.
-
-                - Example: For a sales fact table, dimension tables might include tables for products, customers, time, and geography.               
-
-            - `Primary Key - Foreign Key Relationships`
-                - Definition: Relationships between the fact table and dimension tables are established through primary key-foreign key relationships.
-
-                - Example: Example: The primary key of the dimension table (e.g., product ID in the product dimension) is used as a foreign key in the fact table.    
+        ![erdiagram](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/722197a3-b929-46bc-a27f-61142e5540a6)
 
 
-            - Some of the prominent schemas used in data warehousing are:
+- **Object-based Data Model**
+  - An Object-Based Data Model (OBDM) is a type of data model that is based on the principles of `object-oriented programming`
+  - In an object-based data model, data is organized and represented as objects, which encapsulate both data (attributes) and behaviors (methods or procedures). 
 
-                - `Star Schema`
+   - Example use case
+       - Object-Relational Mapping(ORM)
+           - Focuses on bridging the gap between object-oriented programming and relational databases, mapping objects to database tables.
+
+- **Dimensional Data Model**
+
+    - A Dimensional Data Model is a data modeling techinque used in `Data warehousing` and `business intelligence` to organize and structure data for efficient `querying` and `reporting`
+
+    - Key Components
+
+        - `Fact Table`
+            - Definition: The central table in the dimensional model that contains quantitative data or facts related to a specific business process or event
+
+            - Example: If the business process is sales, the fact table may contain measures like sales revenue, quantity sold, and profit.
+
+        - `Dimension Tables`
+            - Definition: Tables that store descriptive attributes or dimensions associated with the data in the fact table. Dimension tables provide context to the measures in the fact table.
+
+            - Example: For a sales fact table, dimension tables might include tables for products, customers, time, and geography.               
+
+         - `Primary Key - Foreign Key Relationships`
+             - Definition: Relationships between the fact table and dimension tables are established through primary key-foreign key relationships.
+
+             - Example: Example: The primary key of the dimension table (e.g., product ID in the product dimension) is used as a foreign key in the fact table.    
+
+
+- Some of the prominent schemas used in data warehousing are:
+    - `Star Schema`
                     
-                    #img
+      ![starschema](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/1f9afef1-67f8-4f46-868e-e42b219f687b)
 
-                - `Snowflake Schema`
 
-                    #img
+    - `Snowflake Schema`
+
+      ![snowflake](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/cd0643eb-ecad-4c2e-a507-2f001a473228)
+
 
 
 ### Why Denormalization ?
