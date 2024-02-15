@@ -25,6 +25,6 @@
         - Federated governance in a data mesh describes a situation in which `data governance` standards are defined `centrally`,but `local domain teams` have the `autonomy` and `resources` to execute these standards however is most appropriate for their particular environment.**(Data governed wherever it is)**
 
 
-#img
+![datamesh](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/e31385f7-d894-4c03-9a06-88029da5ce3f)
 
 
