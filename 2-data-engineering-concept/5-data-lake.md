@@ -26,7 +26,8 @@
         - In a data lake, the data is `ingested`(Load) in its raw,structured or unstructured form without a `predefined schema`.
         - It has fast data ingestion because `data shouldn't` follow any `internal schema` - it's just copying/moving files.
 
-        #img
+        ![datalake](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/79bf7fde-3548-48ed-8314-7ecfcf5958e4)
+
 
 ### Why are Data Lakes Useful?
 
@@ -41,3 +42,8 @@
 - Slow analytics and production use
 - Need of Good Data governance and transparency
     - setting internal standards-data policies-that apply to how data is gathered,stored,processed and disposed of.
+ 
+
+## Architecture
+
+![datalake2](https://github.com/anupmaharzn/Data-Engineering-Tools-Technologies/assets/34486226/a4c0fe31-bade-491b-a50c-c17f9f9efeb6)
